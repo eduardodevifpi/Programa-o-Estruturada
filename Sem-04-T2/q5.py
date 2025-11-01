@@ -1,0 +1,5 @@
+a = float(input().strip())
+b = float(input().strip())
+c = float(input().strip())
+soma = (a * 2) + (b * 3) + (c * 5)
+print(soma / 10)

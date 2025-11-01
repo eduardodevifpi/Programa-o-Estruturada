@@ -1,0 +1,6 @@
+altura = int(input().strip())
+comprimento = int(input().strip())
+largura = int(input().strip())
+print(largura * comprimento)
+print(largura * comprimento * altura)
+print(2 * altura * largura + 2 * altura * comprimento)
