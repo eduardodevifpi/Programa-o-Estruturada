@@ -23,8 +23,5 @@ def main():
         print(maior)
         print(menor)
 
-
-
-
 if __name__ == "__main__":
     main()
