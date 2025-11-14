@@ -8,7 +8,7 @@ def calcular_populacao_dodo(populacao_inicial):
         mortes = populacao_atual * 0.06
         populacao_atual += nascimentos - mortes
 
-        print(f"{ano},{int(nascimentos)},{round(mortes)},{round(populacao_atual)}")
+        print(f"{ano},{round(nascimentos)},{round(mortes)},{round(populacao_atual)}")
         ano += 1
 
 def main():
